@@ -15,6 +15,20 @@ Even on platforms where native scrolling is good enough, iScroll adds features t
 * You can easily hook to a plethora of custom events (onBeforeScrollStart, onScrollStart, onScroll, onScrollEnd, flick, ...).
 * Out of the box multi-platform support. From older Android devices to the latest iPhone, from Chrome to Internet Explorer.
 
+iScroll是一个高性能、占用空间小、依赖自由的,多平台javascript卷轴(scroller)。
+
+运行于桌面、移动客户端以及智能电视上。一直致力于优化性能和尺寸以提供最平滑流畅的体验效果,包括最新的设备和老旧的设备上。
+
+iScroll并不仅仅是一个 *滚动工具* 。它可以处理所有需要由用户交互来进行移动的元素。可以为你的项目增加滚动,缩放,平移,无限滚动、视差滚动、旋转木马等效果,而代码仅有4 kb。给它一个扫帚,它就会给你打扫办公室! ^……^
+
+即使平台自身提供的滚动已经足够好了, iScroll也能为其添加一些特性, 包括使用其他手段不容易做到的。具体来说:
+
+* 对滚动位置进行细粒度控制,即使是在滚动过程中。你随时都可以获取和设置scroller的x,y坐标。
+* 用户可以通过定义easing 函数来定制动画(bounce, elastic, back... 反弹,弹性、返回)
+* 你可以很容易地处理大量的自定义事件(onBeforeScrollStart, onScrollStart, onScroll, onScrollEnd, flick, ...)。
+* 开箱即用的多平台支持。从老旧的Android设备到最新的iPhone,从Chrome浏览器到Internet Explorer浏览器。
+
+
 <h2 id="iscroll-versions">The many faces of iScroll</h2>
 
 iScroll is all about optimization. To reach the highest performance it has been divided into multiple versions. You can pick the version that better suits your need.
